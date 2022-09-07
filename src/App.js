@@ -81,7 +81,7 @@ function reducer(state, {type, payload}){
       }
       return {
         ...state, 
-        currentOperand: state.currentOperand.slice(0 -1)
+        currentOperand: state.currentOperand.slice(0, -1)
       }
 
 
